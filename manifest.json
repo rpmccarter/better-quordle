@@ -2,5 +2,13 @@
     "manifest_version": 3,
     "name": "Better Quordle",
     "version": "1.0",
-    "description": "Remove slow animations from Quordle, and maybe add some useful functionalities"
+    "description": "Remove slow animations from Quordle, and maybe add some useful functionalities",
+    "content_scripts": [
+        {
+            "css": ["quordle.css"],
+            "matches": [
+                "https://www.merriam-webster.com/games/quordle/*"
+            ]
+        }
+    ]
 }

@@ -1,0 +1,30 @@
+.quordle-box-animate {
+    -webkit-animation: none !important;
+    animation: none !important;
+}
+
+.animate-banner {
+    transition: none !important;
+}
+
+.animate-fade {
+    -webkit-animation: none !important;
+    animation: none !important;
+}
+
+.animate-fade-fast {
+    -webkit-animation: none !important;
+    animation: none !important;
+}
+
+.ga-cross-promo {
+    display: none;
+}
+
+.transition-all {
+    transition: none !important;
+}
+
+.animate-down {
+    transition: none !important;
+}
